@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+ 
+  body {
+    font-family: 'League Spartan', sans-serif;
+    background-color:#f8f8f8 ;
+  }
+  .header-container {
+    display: flex;
+    width: 1440px;
+    padding-top: 104px;
+    padding-left: 233px;
+    padding-right: 133px;
+    padding-bottom: 168px;
+    background-color: #f8f8f8;
+  }
+  .header-subtitle {
+    font-size: 250px;
+    margin-bottom: 43px;
+    line-height: 230px;
+  }
+  .heade-description {
+    font-size: 52px;
+    line-height: 53px;
+    margin-bottom: 61px;
+    color: #161515;
+  }
+  .buy-wrapper {
+    display: flex;
+  }
+  .buying {
+    display: block;
+height: 82px;
+background-color: #161515;
+    width: 278px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    line-height: 82px;
+  }
+.header-page {
+    border-right: 100px;
+}
+  .price {
+height: 82px;
+background-color: white;
+    width: 143px;
+    color: #272727;
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    line-height: 82px;
+  }
+  .main {
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  .models1>h1 {
+    font-weight: 400;
+    font-size: 81px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 174px;
+  }
+  .models2>h3,
+  .models1>h3 {
+    padding-top: 177px;
+    padding-bottom: 17px;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .subscription {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+    justify-content: center;
+  }
+  .subscription1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 49.6px;
+    padding-bottom: 59px;
+    text-align: center;
+    align-items: center;
+  }
+  .subscription2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    font-family: 'Labrada', serif;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .Description-main {
+    text-decoration: underline;
+    color: black;
+    padding-bottom: 50px;
+  }
+  .subscription2>em>span>a {
+
+    text-decoration: underline;
+    color: #bb8b5d;;
+    
+  }
+ 
+  button {
+    padding: 27px 46px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(32, 31, 31) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+   }
+   .buy-wrapper>button>a {
+    color: white;
+    text-decoration: none;
+   }
+
+   button:hover {
+    box-shadow: rgb(40, 37, 37) 0px 7px 0px 0px;
+   }
+   
+   button:active {
+    background-color: rgb(36, 32, 33);
+    /*50, 168, 80*/
+    box-shadow: rgb(37, 34, 35) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+   }
+  
+  .undernith {
+    font-size: 25px;
+    text-align:center;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
